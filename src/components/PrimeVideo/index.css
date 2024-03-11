@@ -1,0 +1,32 @@
+/* Write your CSS here */
+
+.Action {
+  padding: 30px;
+}
+.Comedy {
+  padding: 30px;
+}
+.bg {
+  background-color: #000000;
+  color: #ffffff;
+  height: 100%;
+  background-size: cover;
+  padding-bottom: 33px;
+}
+.Prime {
+  text-align: center;
+  width: 100%;
+}
+.PrimeImage {
+  width: 100%;
+}
+
+.head {
+  font-size: 22px;
+  padding-left: 30px;
+}
+@media (max-width: 767px) {
+  .bg {
+    height: 100vh;
+  }
+}

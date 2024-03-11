@@ -1,0 +1,43 @@
+/* Write your CSS here */
+
+.closeButton {
+  text-align: right;
+}
+.bgVideo {
+  background-color: #231f20;
+  background-size: cover;
+}
+.closeBt {
+  border: 0px;
+  background-color: #ffffff;
+}
+.Video {
+  width: 700px;
+  height: 370px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+}
+@media (max-width: 767px) {
+  .EachImage {
+    height: 50px;
+    width: 70px;
+  }
+  .Video {
+    width: 340px;
+    height: 200px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .Vi {
+    width: 290px;
+    padding: 1px;
+    margin: 1px;
+  }
+}
